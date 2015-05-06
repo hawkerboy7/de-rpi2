@@ -12,8 +12,8 @@ ___This will be described soon, for now use the following___
 <br><br>
 You can check: [Engineering(DIY)](http://engineering-diy.blogspot.nl/2013/01/adding-7inch-display-with-touchscreen.html)
 This is the main source I used to get this thing up and running.
-The '__Compiling the Kervel__' part you won't have to do.
+The '__Compiling the Kernel__' part you won't have to do.
 Those files are provided in this repository.
 You can skip to '__Replace the kernel__'
 <br><br>
-___Warning___: Don't try to replace `start.elf`. It is left out on purpose. If you do change the RAM memory of your Rpi2 will most likely become about 120mb. It's probably a bug in the start.elf file from `raspberrypi/firmware/archive/next.tar.gz`
+___Warning___: Don't try to replace `start.elf`. It is left out on purpose. If you do replaced it, the RAM memory of your Rpi2 will most likely become about 120mb. It's probably due to a bug in the start.elf file from `raspberrypi/firmware/archive/next.tar.gz`
