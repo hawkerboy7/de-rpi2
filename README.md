@@ -16,4 +16,4 @@ The '__Compiling the Kernel__' part you won't have to do.
 Those files are provided in this repository.
 You can skip to '__Replace the kernel__'
 <br><br>
-___Warning___: Don't try to replace `start.elf`. It is left out on purpose. If you do replaced it, the RAM memory of your Rpi2 will most likely become about 120mb. It's probably due to a bug in the start.elf file from `raspberrypi/firmware/archive/next.tar.gz`
+___Warning___: Don't try to replace `start.elf`. It is left out on purpose. If you do replaced it, the RAM memory of your Rpi2 will most likely become about 120mb. It's probably due to a bug in the `start.elf` file from `raspberrypi/firmware/archive/next.tar.gz`
